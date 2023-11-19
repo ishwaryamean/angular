@@ -28,6 +28,44 @@ component based architecture.
 
 5 It does not support mobile browsers. It also support mobile browsers.
 
+4. What is NPM?
+
+NPM/ Node package manager is an online,repository from where you can get thousands of free libraries which can be used in your
+angular project.
+
+The node_modules folder is used to save all downloaded packages from inpm in your computer.
+
+5. What is CLI tool?
+
+CLl is a command-line interface tool that you use to initialize and develop Angular applications.
+
+6. What are Components in Angular?
+
+Components are the most basic UI building block of an Angular app.
+
+Css file used for keeping the css code of the component. 
+
+html file used for modifying the html template of the component. 
+
+The spec file is used for writing unit tests for your component. 
+
+Components is the file which link all the other component files.
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
  
 
  
