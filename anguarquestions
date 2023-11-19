@@ -356,7 +356,32 @@ Are not cancellable.
 
 36. What is RxJS?
 
-c 
+RxJS is a library for composing asynchronous and event-based programs by using observable sequences.itprovides one core type,
+the Observable, satellite types (Observer, Schedulers, Subjects) and operators inspired
+by Array methods (nap, filter, reduce, every, etc) to allow handling asynchronous events as collections.
+
+RxJS is a javascript library, that allow us to work with asynchronous data stream with the help of observables.
+
+Observables introduced by RxJS library.
+
+RxJS stands for reactive extension for javascript.
+
+37. What is Observable? How to implement Observable?
+
+Observables are used to stream data to multiple components.
+
+It’s a 3 step process:
+
+Import Observable from RxJS Library.
+Create Observable and emit data
+Finally subscribe the data.
+
+
+
+
+
+
+
 
 
 
