@@ -152,10 +152,64 @@ HTML element.
 21. What is the difference between Component, Attribute and Structural Directives?
 
 Component directive is responsible for showing the first whole view. It is the most used one.
-Structural directive is responsible for adding and deleting html elements in the view.
-Attribute directive is responsible for changing the  appearance of view by adding or removing style/css class of html elements.
+Starts with @ sign
+Like: @Component
 
-22.
+
+Structural directive is responsible for adding and deleting html elements in the view.
+Starts with * sign.
+Like: *nglf, *ngFor,*ngSwitch
+
+
+Attribute directive is responsible for changing the  appearance of view by adding or removing style/css class of html elements.
+Set inside Square brackets.
+Like: [ngClass], [ngStyle]
+
+
+22. What is Decorator? |
+
+Angular decorators store metadata about a class, method, or property.
+
+Metadata is "data that provides information about other data".
+
+All decorators are represented with @ symbol.
+
+23. What are the types of Decorator?
+
+class Decorator:
+@ngModule
+@component
+@injectable
+@Directive
+@Pipe
+
+Property Decorator
+@Input
+@Output
+@ContentChild
+@ContentChildren
+@ViewChild
+@ViewChildren
+@HostBinding
+
+Method Decorators
+@HostListner
+
+Parameter Decorators
+@inject
+@Self
+@Host
+@SkipSelf
+@Optional
+
+
+
+
+
+
+
+
+
 
 
 
