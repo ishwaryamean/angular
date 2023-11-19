@@ -130,6 +130,37 @@ both structural directives.
 
 The *ngFor directive is used to iterate a list of items and then display them.
 
+19. What is [ngStyle] Attribute directive?
+
+Attribute directives change the appearance or behavior of an element.
+
+ngStyle is an attribute directive that updates styles for the HTML element.
+
+20. What is [ngClass] Attribute directive?
+
+Attribute directives change the appearance or behavior of an element.
+
+
+
+
+
+
+
+ngClass directive adds and removes CSS classes on an
+HTML element. 
+
+21. What is the difference between Component, Attribute and Structural Directives?
+
+Component directive is responsible for showing the first whole view. It is the most used one.
+Structural directive is responsible for adding and deleting html elements in the view.
+Attribute directive is responsible for changing the  appearance of view by adding or removing style/css class of html elements.
+
+22.
+
+
+
+ 
+
 
 
  
