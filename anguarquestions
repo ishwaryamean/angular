@@ -13,7 +13,25 @@ It is Cross platform and Open Source (Free)
 Reusable code (Services)
 Testability(specs)
 
-3. 
+3. What is the difference between Angular and Angular JS? OR What are the advantages of Angular
+over AngularJS?
+
+
+1. It only supports JavaScript. It support both JavaScript and TypeScript.
+
+2. This framework has a model-view- This framework has a component controller (MVC) architecture. This  framework has a 
+component based architecture.
+
+3. It does not have CLI tool. It has CLI tool.
+
+4. It does not use Dependency Injection. It uses Dependency Injection.
+
+5 It does not support mobile browsers. It also support mobile browsers.
+
+ 
+
+ 
+
 
  
 
