@@ -376,7 +376,29 @@ Import Observable from RxJS Library.
 Create Observable and emit data
 Finally subscribe the data.
 
+38. What is the role of HttpClient in Angular?
 
+HttpClient is a built-in service class available in Angular.
+@angular/common/http package
+Performs HTTP requests.
+
+39. What is Typescript? What are the advantages of Typescript over Javascript?
+
+Typescript isa strongly typed language
+Typescript is a superset of JavaScript
+It has Object oriented features
+Detect error at compile time
+
+40. What is the difference between let and var keyword?
+
+var has global scope inside the function.
+
+let keyword scope is limited to the block onlyfrom where it is declared.
+
+
+
+
+                                                                
 
 
 
