@@ -202,6 +202,60 @@ Parameter Decorators
 @SkipSelf
 @Optional
 
+24. What are Pipes? What are the types of Pipes & Parameterized Pipes?
+
+Pipes are simple functions which accept an input value and return a transformed value.
+
+Built-in-pipe
+
+lowecase
+uppercase
+date
+percentage
+currency
+decimal
+slice
+json
+
+25. What is Chaining Pipes?
+
+The chaining pipes use multiple pipes on a data input.
+
+{{dob|date|uppercase}}
+
+26. Explain Services with Example?
+
+A service is a typescript class and a reusable cade which can be used in multiple components.
+
+Service can be implemented with the help of dependency injection. 
+
+27. How to Create Service in Angular?
+
+ng generate service login
+
+28. What is Provider in Angular?
+
+A provider is an object declared inside decorators which inform Angular that a particular service is available for
+injecting inside the components. 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 
