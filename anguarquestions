@@ -1,9 +1,19 @@
 1. What is Angular?
 
-Angular is a component-based framework for
-building structured, scalable and single page web
-applications for client side. 
+Angular is a component-based framework for building structured, scalable and single page web applications for client side. 
 
+2. What are Angular advantages?
+
 
 
+
+It is Relatively simple to build Single Page Applications (Components)
+To make flexible and structured applications (OOPS friendly)
+It is Cross platform and Open Source (Free) 
+Reusable code (Services)
+Testability(specs)
+
+3. 
+
+ 
 
