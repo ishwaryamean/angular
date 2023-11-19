@@ -118,8 +118,20 @@ Structural Directives are classes that change appearance of DOM by adding or rem
 
 nglf Directive is used to add or remove items based on the if condition.
 
+17. What is *ngSwitch Structural directive?
+
+ngSwitch is an structural directive used in combination with *ngSwitchCase and *ngSwitchDefault that are
+both structural directives.
+
+
+
+18. What is *ngFor Structural directive?
+
+
+The *ngFor directive is used to iterate a list of items and then display them.
 
 
+
  
 
 
