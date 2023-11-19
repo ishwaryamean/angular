@@ -280,7 +280,94 @@ The stages will cover activities like:
 
 
 
+31. What is a Constructor in Angular?
+
+The constructor is a method in a TypeScript class that automatically gets called when the class is being instantiated.
+
+Constructor always run before any angular hook and it is not a part of Lifecycle Hooks.
+
+Constructor is widely used to inject dependencies(services) into the component class.
+
+
+
+32. What is ngOninit life cycle hook in Angular?
+
+NgOnInit signals the activation of the created component.
+
+This is the second hook and called after ngOnChanges.
+
+NgOnInit called only once during lifecycle.
+
+By default, present in the component.
+
+33. What is the difference between Constructor and ngOninit?
+
+NgOnInit:
+  
+
+
+
+
+
+
+   NgOnInit is an Angular lifecycle hook,which signals the activation of the created component.
+
+   ngOnInit is called after ngOnChanges lifecycle-hook.
+
+   When ngOninit called, everything about component is already ready, so it’s Use is to perform most of the business
+   logic on component.
+
+
+constructor:
+
+    The constructor is a method in a TypeScript class, that automatically gets called when the class is being instantiated.
+
+    Constructor is called before any lifecycle hook. 
+
+    When constructor called, everything in component is not ready, so it's mostly used for injecting dependencies only.
+
+34. What are Asynchronous operations?
+
+Observables are used to perform asynchronous operations and handle asynchronous data 
+
+
+
+
+35. What is the difference between Promise and Observable?
+
+Observable:
+
+Emit multiple values over a period of time. Also calléd streaming of data.
+
+Are lazy: they're not executed until we subscribe to them using the subscribe() method.
+
+Have subscriptions that are cancellable using the unsubscriby method. 
+
+
+
+Promise:
+
+Emit a single value at a time.
+
+
+Are not lazy: execute immediately after creation.
+
+Are not cancellable.
+
+36. What is RxJS?
+
+c 
+
+
+
  
+
+
+
+
+
+
+
 
 
 
