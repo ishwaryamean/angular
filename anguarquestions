@@ -51,6 +51,43 @@ The spec file is used for writing unit tests for your component.
 
 Components is the file which link all the other component files.
 
+7. What isa Selector and Template? 
+
+A selector is used to identify each component uniquely into the component tree.
+
+A Template is a HTML view of an Angular component.
+
+8. What is Module in Angular? What is app.module.ts file?
+
+Module is a place where you can group the components,directives, pipes, and services, which are related to the
+application.
+
+9. How an Angular App gets Loaded and started? What are index.html, app-foot, selector and main.ts?
+
+Angular is used to create Single Page Applications. index.html file is that single page. index.html will invoke main.js 
+file which is the javascript version of main.ts file.
+
+main.ts file is like the entry point of web-app. It compiles the web-app and bootstraps the AppModule to run in the browser.
+
+App module file will then bootstrap the Appcomponent.
+
+App-component or app-root component is the html which you will see finally.
+
+10. What is Data Binding in Angular?
+
+Data binding is the way to communicate between your typescript code of your component and your html view.
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
