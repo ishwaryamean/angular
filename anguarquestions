@@ -398,7 +398,12 @@ let keyword scope is limited to the block onlyfrom where it is declared.
 
 
 
-                                                                
+41. What is Type annotation in Typescript?
+
+Type annotation is assigning a variable or object a type which will show the compile time error.
+
+If we will try to assign the variable a different type.
+                                                           
 
 
 
@@ -407,7 +412,21 @@ let keyword scope is limited to the block onlyfrom where it is declared.
 
 
 
- 
+42. What is “any” type in Typescript?
+
+
+When a value is of type any then no typechecking will be done by compiler and the flexibility is there to do anything with
+the variable.
+
+43. What is Enum in Typescript?
+
+Enum allows to define a set of named constants.
+
+44. What is Type Assertion in Typescript?
+
+Type Assertion is a technique that informs the compiler about the type of a variable.
+
+
 
 
 
