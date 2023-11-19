@@ -76,6 +76,45 @@ App-component or app-root component is the html which you will see finally.
 10. What is Data Binding in Angular?
 
 Data binding is the way to communicate between your typescript code of your component and your html view.
+
+11. What is String Interpolation in Angular?
+
+String Interpolation is a one-way data-binding technique that is used to transfer the data from a TypeScript code(component)
+to an HTML template (view). 
+
+String interpolation can work on string type only not numbers or any other type. 
+
+It is represented inside {{data}} double curly braces.
+
+12. What is Property Binding in Angular?
+ 
+Property binding is a superset of interpolation. It can do whatever interpolation can do. In addition, it can set an
+element property to a non-string data value like Boolean.
+
+13. What is Event Binding in Angular?
+
+Event binding is used to handle the events raised by the user actions like button click.
+
+14. What is Two way Binding in Angular?
+
+Two-way data binding in Angular will help users to exchange data from the view to component and then from component to
+the view at the same time.
+
+Two way data-binding |(° ngiodel ")| = “data”
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
 
 
 
