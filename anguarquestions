@@ -238,7 +238,15 @@ ng generate service login
 A provider is an object declared inside decorators which inform Angular that a particular service is available for
 injecting inside the components. 
 
+29. What is the role of @Injectable Decorator? How to use one service inside another service?
+
+With @injectable decorator one service can be used by another service.
+
+30.
+
  
+
+
 
  
 
