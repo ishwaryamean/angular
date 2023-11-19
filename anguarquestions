@@ -242,7 +242,43 @@ injecting inside the components.
 
 With @injectable decorator one service can be used by another service.
 
-30.
+30. What are Lifecycle Hooks in Angular?
+
+A component from creation to destruction goes through several stages and these stages are the life cycle hooks.
+
+The stages will cover activities like:
+* Component instantiating.
+* Rendering the component html view. 
+* Creating the child components(if required).
+* Destroying the component.
+
+*constructor
+    It is a default method of the typescript class that is executed when the class is instantiated.
+    It always run before any angular hook and it is not a part of Lifecycle Hooks.
+
+
+*ngOnChanges
+    Called when input property changes.
+
+
+*ngOnInit
+    Called when the component is created.
+
+
+*ngDoCheck
+
+*ngAfterContentInit
+*ngAfterContentChecked
+*ngAfterViewInit
+*ngAfterViewChecked
+    Called for component children.
+
+
+*ngOnDestroy
+     Called when the component is destroyed.
+
+
+
 
  
 
