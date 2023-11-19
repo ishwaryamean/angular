@@ -102,6 +102,33 @@ the view at the same time.
 
 Two way data-binding |(° ngiodel ")| = “data”
 
+15. What are Directives? What are the type of directives?
+
+Directives are classes that add additional behavior to elements in your Angular applications.
+
+Structural directives change appearance of DOM by adding or removing elements
+
+Attribute directives change appearance or behaviour of an element.
+
+Component directives are directive with its own template.
+
+16. What is *nglf Structural directive?
+
+Structural Directives are classes that change appearance of DOM by adding or removing elements.
+
+nglf Directive is used to add or remove items based on the if condition.
+
+
+
+ 
+
+
+
+
+ 
+
+
+
 
 
 
