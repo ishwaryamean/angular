@@ -430,7 +430,6 @@ Type Assertion is a technique that informs the compiler about the type of a vari
 
 
 
-
 
 
 
@@ -439,14 +438,16 @@ Type Assertion is a technique that informs the compiler about the type of a vari
 45. What is SPA?
 
 A single Page Application is an app that doesn't need to reload the page during its use and works within a web browser.
-Eg: Facebook,Google map 
-
-
-
-
-
-
+Eg: Facebook,Google map
 
+46. What is current version of angular ?
+
+
+
+
+
+
+Angular version 17 was released on November 8, 2023
 
 
 
