@@ -41,7 +41,7 @@ CLl is a command-line interface tool that you use to initialize and develop Angu
 
 6. What are Components in Angular?
 
-Components are the most basic UI building block of an Angular app.
+Components are the most basic UI building block of an Angular app. 
 
 Css file used for keeping the css code of the component. 
 
