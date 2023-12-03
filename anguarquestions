@@ -166,7 +166,7 @@ Set inside Square brackets.
 Like: [ngClass], [ngStyle]
 
 
-22. What is Decorator? |
+22. What is Decorator? 
 
 Angular decorators store metadata about a class, method, or property.
 
@@ -460,23 +460,78 @@ This is used to add more data to an angular class.
  
 
 
+48? How can you change it port?
 
+ng serve --port= 3200
 
+49. Explain package.json file ?
+
+With the existence of package.json , it will be easy to manage the dependencies of the project.
+
+50. command for unit test and end to end test?
+
+Ng test - for unit test
+Ng e2e - for end to end tests
+
+51. How to convert Typescript to javascript?
+
+It is called Transpiling 
+During  build the code convert from typescript to javascript.
+
+52.How to find out CLI version?
+
+ng --version
+
+53.How to find lind issues in code ?
+
+ng lint command.
+
+54. where and how to do you unsubscribe the observable?
+
+onNgDestroy method in the component
+Subscription.unscribe()
+
+55. How to disable the prefix to any component in angular CLI Command
+
+in the command ng g <component-name> --prefix=false
 
 
+56. what are angular modules?
 
+The NgModule decorator has 3 options
+
+The imports option is used to import other dependent modules.
+The browser module is required by default for any web based angular application.
+The declaration option is used to define component in the respective module.
+The bootsrap option tells angular which component to boostrap in the application.
+
+57. What is ngModule?
+
+An ngModule class describe how the application parts fit together.
+Every application has atleast one ngModule the root module that we boostrap to launch the application.
 
 
 
 
+58 . Explain component structure and building blocks?
 
+selector : Define the name of the HTML element in which our component will live
+template or templateUrl :  the  Template is a HTML view of an Angular component.
+style: The styles array for our specific component, we can also link external css by styleurl
+directive : another component directive we want to use inside our components
+providers: this is place we are passing the service that we need inside our component
 
+59. Explain angular @component decorator?
+using @component decorator we can define the component consitutents like templateUrl, styleUrls and selector 
 
- 
+60. what is different b/w constructor and ngoninit?
+
+Typescript classes has a default method called constructor which is normally used for initialization purpose.
+where as ngOninit method is specfic to angular especailly used to define angular binding
+Even though construtor getting called first,it is preferred to move all of your angular bindings  to ngoninit method.
 
 
 
- 
 
 
 
