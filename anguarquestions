@@ -441,6 +441,7 @@ A single Page Application is an app that doesn't need to reload the page during 
 Eg: Facebook,Google map
 
 46. What is current version of angular ?
+
 
 
 
@@ -453,7 +454,9 @@ A major version is done afeter every 6 months.
 
 
 
+47. What is metadata?
 
+This is used to add more data to an angular class.
  
 
 
