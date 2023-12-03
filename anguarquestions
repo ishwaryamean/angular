@@ -535,8 +535,48 @@ Even though construtor getting called first,it is preferred to move all of your 
 
 
 
+---------------------------------------NODE----------------------------------------------------------------
+1 what is package.json file?
 
- 
+* In package.json file we keep all the details of the projects that hold various metadata relevant to the project like version,
+desciption,depemdecies,run script,license and all npm packages.
+
+* without this package your project will not work
+
+2. what is nodejs?
+
+* Nodejs is an open source server environment
+* Nodejs is a platform build on chrome's javascript runtime for easily building fast and scalable network application.
+* It is sigle threaded, non blocking and event driven
+
+3.As you just said nodejs is a single threaded the how nodejs is fast?
+
+* Nodejs is used an event loop that handles the asynchronous task.
+
+* The event loop makes our program non-blocking.
+
+* Wecan handle multiple request at a time in parallel that's the reason nodejs fast
+
+3. what is event loop?
+
+* The event loop makes the code async.
+* Behind the scence when our code run asynchronously the there are contaniners that are 
+
+* call-stack
+* call-back queue
+* web api
+* micro task queue
+
+* The purpouse of event loop is to execute the async task as per priority
+
+* considering the main features of nodejs and its strength we can say data driven, I/O driven , 
+event driven and non -blocking applications benefits the best from a nodejs implementation
+
+* It can be used to create
+
+* web servers
+* Real Time application
+* Creating APIs
 
 
 
