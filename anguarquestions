@@ -1,17 +1,17 @@
 1. What is Angular?
 
-Angular is a component-based framework for building structured, scalable and single page web applications for client side. 
+* Angular is a component-based framework for building structured, scalable and single page web applications for client side. 
 
 2. What are Angular advantages?
 
 
 
 
-It is Relatively simple to build Single Page Applications (Components)
-To make flexible and structured applications (OOPS friendly)
-It is Cross platform and Open Source (Free) 
-Reusable code (Services)
-Testability(specs)
+* It is Relatively simple to build Single Page Applications (Components)
+* To make flexible and structured applications (OOPS friendly)
+* It is Cross platform and Open Source (Free) 
+* Reusable code (Services)
+* Testability(specs)
 
 3. What is the difference between Angular and Angular JS? OR What are the advantages of Angular
 over AngularJS?
@@ -436,7 +436,9 @@ Type Assertion is a technique that informs the compiler about the type of a vari
 
 
 
+45. What is SPA?
 
+A single Page Application is an app that doesn't need to reload the page during its use and works within a web browser.
  
 
 
